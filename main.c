@@ -10,7 +10,6 @@ int err(){
   printf("errno %d\n", errno);
   strerror(errno);
   printf("%s\n", strerror(errno));
-  //printf("bye\n");
   exit(1);
 }
 
@@ -66,6 +65,5 @@ int main(){
         }
         return 0;
       }
-
   }
 }
